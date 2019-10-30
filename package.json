@@ -1,0 +1,23 @@
+{
+  "name": "ejs-express",
+  "version": "1.0.0",
+  "description": "ejsとexpressでTodoList",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koro5656/ejs-express.git"
+  },
+  "author": "koro56",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koro5656/ejs-express/issues"
+  },
+  "homepage": "https://github.com/koro5656/ejs-express#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
