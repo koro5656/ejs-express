@@ -5,10 +5,17 @@ ejsとexpressでTodoListを作る
 - [node.js、express、ejsでHello Worldするコード](https://qiita.com/Masa79/items/4d3c12949473017127d0)  
 - [Node.js + Express で作る Webアプリケーション 開発 入門](https://garafu.blogspot.com/2016/07/nodejs-express-webapp-tutorial.html)
 
+### ejsとexpressの環境構築
+
 - プロジェクトフォルダで 
 - $ npm init
 - → package.json作成
 - $ npm install express ejs --save
+- $ npm install ejs --save
+
+- jQueryとBootstrapをインストール (node_modulesに入る)
+- $ npm install jquery --save
+- $ npm install bootstrap --save
 
 - 不足分のフォルダとファイルを作成
 ejs-express
@@ -17,6 +24,7 @@ ejs-express
         |-index.js
     |-/stylesheets
         |-style.css
+    |-/
 |-routes
     |-api.js
     |-/apis
@@ -36,3 +44,4 @@ ejs-express
 - $ node app.js でサーバー起動
 - localhost:3000/
 - control + c でサーバー停止
+
